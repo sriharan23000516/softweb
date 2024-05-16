@@ -1,5 +1,5 @@
 # Ex.07 Software Product Company Website
-## Date:12/05/2024
+## Date:
 
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
@@ -30,7 +30,16 @@ Publish the website in the given URL.
 ## PROGRAM:
 
 ```
-home.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    HOMEPAGE
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,14 +50,16 @@ home.html
                 padding: 0;
                 font-family: Arial, Helvetica, sans-serif;
             }
-            .banner {
+            .banner 
+            {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 170, 255, 0.75));
+                background-image: linear-gradient(black,black),url(background.png);
                 background-size: cover;
                 background-position: center;
             }
-            .navbar {
+            .navbar 
+            {
                 width: 85%;
                 margin: auto;
                 padding: 35px 0;
@@ -56,124 +67,140 @@ home.html
                 align-items: center;
                 justify-content: space-between;
             }
-            .logo {
-                color:#000000;
-                font-size: 50px;
+            .logo 
+            {
+                color: #6fa1f8;
+                font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
             }
-            span {
-                color: rgb(187, 184, 184);
+            span 
+            {
+                color: white;
             }
-            form {
+            form 
+            {
                 width: 300px;
                 height: 40px;
                 display: flex;
-                background: rgba(4, 250, 41, 0.2);
+                background: black;
                 padding: 1px 1px;
                 font-size: 15px;
                 border-radius: 10px;
                 backdrop-filter: blur(4px) saturate(180%);
             }
-            form input {
+            form input 
+            {
                 background: transparent;
                 flex: 1;
                 border: 0;
                 outline: none;
                 padding: 12px 20px;
-                font-size: 20px;
-                color: rgb(102, 103, 102);
+                font-size: 15px;
+                color: white;
             } 
-            ::placeholder {
-                color: rgb(0, 0, 0);
+            ::placeholder 
+            {
+                color: white;
             }
-            form button {
+            form button 
+            {
                 border: 0;
                 outline: none;
                 padding: 5px 20px;
-                color: #ffffff;
+                color: white;
                 border-radius: 10px;
-                background:#6e4ad2;
+                background: #6fa1f8;
                 cursor: pointer;
             }
-            .navbar li {
-                font-size: 30px;
+            .navbar li 
+            {
                 list-style: none;
                 display: inline-block;
                 margin: 0 20px;
                 position: relative;
             }
-            .navbar li a {
+            .navbar li a 
+            {
                 text-decoration: none;
-                color: rgb(0, 0, 0);
+                color: white;
                 text-transform: uppercase;
             }
-            .navbar li:hover {
+            .navbar li:hover 
+            {
                 border: 1px;
                 padding: 10px;
-                color: rgb(255, 255, 255);
-                background-color: #19c6d6;
+                color: white;
+                background-color: #6fa1f8;
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
             }
-            .content {
+            .content 
+            {
                 position: absolute;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 text-align: center;
             }
-            .text h2 {
-                color: rgb(0, 0, 0);
+            .text h2 
+            {
+                color: white;
                 font-weight: 800;
                 font-size: 50px;
                 letter-spacing: 3px;
             }
-            .text p {
-                color: rgb(0, 0, 0);
+            .text p 
+            {
+                color: white;
                 text-transform: capitalize;
-                font-size: 25px;
+                font-size: 15px;
                 margin-bottom: 30px;
                 word-spacing: 2px;
                 letter-spacing: 1px;
             }
-            .login {
+            .login 
+            {
                 margin: 0px 10px;
-                border: 2px solid#000000;
+                border: 2px solid #6fa1f8;
                 padding: 13px 35px;
                 letter-spacing: 1px;
-                color: rgb(9, 9, 9);
+                color: white;
                 border-radius: 30px;
-                background-color:#06c7ee;
+                background-color: #6fa1f8;
                 text-decoration: none;
             }
-            .login:hover {
-                border: 2px solid#ffffff;
-                color:#fbfbfb;
-                background-color: rgb(0, 0, 0);
+            .login:hover 
+            {
+                border: 2px solid #6fa1f8;
+                color: #6fa1f8;
+                background-color: white;
                 transition: 0.5s;
                 cursor: pointer;
             } 
-            .signup {
+            .signup 
+            {
                 margin: 0px 10px;
-                border: 2px solid#010505;
+                border: 2px solid #6fa1f8;
                 padding: 13px 35px;
                 letter-spacing: 1px;
-                color: rgb(0, 0, 0);
+                color: white;
                 border-radius: 30px;
-                background-color:#06c7ee;
+                background-color: #6fa1f8;
                 text-decoration: none;
             }
-            .signup:hover {
-                border: 2px solid#ffffff;
-                color:#ddbbbb;
-                background-color: rgb(0, 0, 0);
+            .signup:hover 
+            {
+                border: 2px solid #6fa1f8;
+                color: #6fa1f8;
+                background-color: white;
                 transition: 0.5s;
                 cursor: pointer;
             }
-            footer {
-                background-color:#ffffff;
+            footer 
+            {
+                background-color: #6fa1f8;
                 margin-top: auto;
             }
         </style>
@@ -182,12 +209,12 @@ home.html
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">AI Smart</h1>
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
             <ul>
-                <li><a href="home.html"> Home </a></li>
-                <li><a href="product.html"> Products </a></li>
-                <li><a href="people.html"> People </a></li>
-                <li><a href="contact.html"> Contact </a></li>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html"> Person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -198,7 +225,7 @@ home.html
             <div class="text">
                 <h2> Software Development Company </h2>
                 <br>
-                <p>AI Smart is a cutting-edge company specializing in AI-powered software solutions. They’re at the forefront of AI innovation, impacting various industries with their smart platforms.</p>
+                <p> Welcome to InfinitiTech, your gateway to cutting-edge software solutions and innovative web development applications! </p>
                 <br>
                 <div>
                     <a href="#" class="login"> Log In </a>
@@ -208,13 +235,402 @@ home.html
         </div>  
     </div>
     <footer>
-        <center>Designed and Developed by BALA MURUGAN S (212223230027)  &copy; 2024</center>
+        <center> Designed and Developed by THIRISHA (212223040228) </center>
     </footer>
 </body>
 </html>
-
-contact.html
-
+PERSON
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> person page </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .banner 
+            {
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .navbar 
+            {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .bg-person 
+            {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color: #6fa1f8;
+                border-radius: 30px;
+            }
+            .logo 
+            {
+                color: #6fa1f8;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span 
+            {
+                color: white;
+            }
+            form 
+            {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input 
+            {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: white;
+            } 
+            ::placeholder 
+            {
+                color: white;
+            }
+            form button 
+            {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color: white;
+                border-radius: 10px;
+                background: #6fa1f8;
+                cursor: pointer;
+            }
+            .navbar li 
+            {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a 
+            {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            .navbar li:hover 
+            {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color: #6fa1f8;
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .image 
+            {
+                position: relative;
+                border: 0;
+                top: 70px;
+                background: transparent;
+            }
+            .image table 
+            {
+                border: 0;
+                color: white;
+                position: relative;
+                left: 150px;
+            }
+            .image table img 
+            {
+                height: 140px;
+                width: 140px;
+                border: 2px solid white;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .image table td 
+            {
+                color: #6fa1f8;
+            }
+            footer 
+            {
+                background-color: #6fa1f8;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
+            <ul>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html" class="bg-person"> person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="image">
+            <table cellspacing="30"> 
+                <tr align="center">
+                    <td> <img src="sundhar.jpg"> </td>
+                    <td> <img src="steve.jpg"> </td>
+                    <td> <img src="swetha.jpg"> </td>
+                    <td> <img src="markzub.jpg"> </td>
+                    <td> <img src="musk.jpg"> </td>
+                </tr>
+                <tr align="center">
+                    <th> Sundhar Pichai </th>
+                    <th> Steve Jobs </th>
+                    <th> SWETHA  </th>
+                    <th> Mark Zuckerberg </th>
+                    <th> Elon Musk  </th>
+                </tr>
+                <tr align="center">
+                    <td> CEO, Co-Founder </td>
+                    <td> CTO, Co-Founder </td>
+                    <td> CEO </td>
+                    <td> Director </td>
+                    <td> Asst. Director </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <center> Designed and Developed by SWETHA D (212223040222) </center>
+    </footer>
+</body>
+</html>
+PRODUCTS
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Product Page </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .banner 
+            {
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .navbar 
+            {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .bg-product 
+            {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color: #6fa1f8;
+                border-radius: 30px;
+            }
+            .logo 
+            {
+                color: #6fa1f8;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span 
+            {
+                color: white;
+            }
+            form 
+            {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input 
+            {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: white;
+            } 
+            ::placeholder 
+            {
+                color: white;
+            }
+            form button 
+            {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color: white;
+                border-radius: 10px;
+                background: #6fa1f8;
+                cursor: pointer;
+            }
+            .navbar li 
+            {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a 
+            {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            .navbar li:hover 
+            {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color: #6fa1f8;
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .container 
+            {
+                background: transparent;
+                padding: 10px 5%;
+                padding-bottom: 100px;
+            }
+            .container .box-container 
+            {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+                gap: 20px;
+            }
+            .container .box-container .box 
+            {
+                color: white;
+                box-shadow: 0 5px 10px rgba(0,0,0,.2);
+                border-radius: 20px;
+                background: transparent;
+                border: 1px solid white;
+                padding: 30px 30px;
+            }
+            .container .box-container .box img 
+            {
+                height: 70px;
+                border-radius: 20px;
+            }
+            .container .box-container .box h2 
+            {
+                color: #6fa1f8;
+                font-size: large;
+                padding: 10px 0;
+            }
+            .container .box-container .box p 
+            {
+                color: white;
+                font-size: small;
+                line-height: 1.5;
+            }
+            footer 
+            {
+                background-color: #6fa1f8;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
+            <ul>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html" class="bg-product"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html"> person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="box-container">
+                <div class="box">
+                    <h2> CodeForge Pro </h2>
+                </div>
+                <div class="box">                   
+                    <h2> SiteGenie Builder </h2>                   
+                </div>
+                <div class="box">                    
+                    <h2> DevSync Hub Pro </h2>                    
+                </div>
+                <div class="box">                  
+                    <h2> WebOptiMate Suite </h2>                   
+                </div>
+                <div class="box">                   
+                    <h2> CodeLeap Toolkit </h2>                    
+                </div>
+                <div class="box">                    
+                    <h2> SiteGuard Pro Shield  </h2>                   
+                </div>
+                <div class="box">                    
+                    <h2> WebFlow Pro Studio </h2>                    
+                </div>
+                <div class="box">                  
+                    <h2> DevInspect Test Kit </h2>                   
+                </div>
+                <div class="box">                   
+                    <h2> SiteSphere CMS </h2>                   
+                </div>
+                <div class="box">                   
+                    <h2> CodeBoost Accelerator </h2>                
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center> Designed and Developed by SWETHA D (212223040222) </center>
+    </footer>
+</body>
+</html>
+CONTACT US
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -225,14 +641,16 @@ contact.html
                 padding: 0;
                 font-family: Arial, Helvetica, sans-serif;
             }
-            .banner {
+            .banner 
+            {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(255, 255, 255, 0.941),rgba(1, 181, 246, 0.75));
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
-            .navbar {
+            .navbar
+            {
                 width: 85%;
                 margin: auto;
                 padding: 35px 0;
@@ -240,158 +658,179 @@ contact.html
                 align-items: center;
                 justify-content: space-between;
             }
-            .bg-contact {
+            .bg-contact 
+            {
                 border: 1px;
                 padding: 10px;
-                color: gray;
-                background-color:#08f03e;
+                color: white;
+                background-color: #6fa1f8;
                 border-radius: 30px;
             }
-            .logo {
-                color:#000000;
+            .logo 
+            {
+                color: #6fa1f8;
                 font-size: 40px;
                 font-weight: 700;
                 letter-spacing: 3px;
             }
-            span {
-                color: gray;
+            span 
+            {
+                color: white;
             }
-            .navbar form {
+            .navbar form 
+            {
                 width: 300px;
                 height: 40px;
                 display: flex;
-                background: rgba(0, 0, 0, 0.2);
+                background: rgba(255, 255, 255, 0.2);
                 padding: 1px 1px;
                 font-size: 15px;
                 border-radius: 10px;
                 backdrop-filter: blur(4px) saturate(180%);
             }
-            .navbar form input {
+            .navbar form input 
+            {
                 background: transparent;
                 flex: 1;
                 border: 0;
                 outline: none;
                 padding: 12px 20px;
                 font-size: 15px;
-                color: rgb(0, 0, 0);
+                color: white;
             } 
-            ::placeholder {
-                color: gray;
+            ::placeholder 
+            {
+                color: white;
             }
-            .navbar form button {
+            .navbar form button 
+            {
                 border: 0;
                 outline: none;
                 padding: 5px 20px;
-                color: rgb(253, 253, 253);
+                color: white;
                 border-radius: 10px;
-                background:#00a6ff;
+                background: #6fa1f8;
                 cursor: pointer;
             }
-            .navbar li {
+            .navbar li 
+            {
                 list-style: none;
                 display: inline-block;
                 margin: 0 20px;
                 position: relative;
             }
-            .navbar li a {
+            .navbar li a 
+            {
                 text-decoration: none;
-                color: rgb(0, 0, 0);
+                color: white;
                 text-transform: uppercase;
             }
-            .navbar li:hover {
+            .navbar li:hover 
+            {
                 border: 1px;
                 padding: 10px;
-                color: rgb(11, 6, 117);
-                background-color:#00ffff;
+                color: white;
+                background-color: #6fa1f8;
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
             }
-            .box {
+            .box 
+            {
                 display: flex;
                 column-gap: 40px;
                 background: transparent;
                 position: relative;
                 top: 50px;
             }
-            .box-1 {
-                height: 400px;
+            .box-1 
+            {
+                height: 370px;
                 width: 400px;
-                border: 3px solid rgb(12, 12, 12);
+                border: 3px solid white;
                 border-radius: 20px;
                 background: transparent;
                 position: relative;
                 left: 250px;
             }
-            .box-2 {
-                height: 400px;
+            .box-2 
+            {
+                height: 370px;
                 width: 400px;
-                border: 3px solid#141314;
+                border: 3px solid #6fa1f8;
                 border-radius: 20px;
                 background: transparent;
                 position: relative;
                 left: 300px;
             }
-            .box-1 form {
+            .box-1 form 
+            {
                 display: flex;
-                color: rgb(0, 0, 0);
+                color: white;
                 background: transparent;
                 padding: 10px;
                 font-size: 15px;
                 position: relative;
                 top: 15px;
             }
-            .box-1 form input {
+            .box-1 form input 
+            {
                 background: transparent;
                 display: flex;
-                border: 1px solid rgb(16, 10, 10);
+                border: 1px solid white;
                 border-radius: 10px;
                 padding: 15px 30px;
                 font-size: 15px;
-                color: rgb(6, 4, 4);
+                color: white;
                 position: relative;
                 top: 30px;
             }
-            .box-1 form textarea {
+            .box-1 form textarea 
+            {
                 background: transparent;
-                color: rgb(10, 8, 8);
+                color: white;
                 padding: 15px 10px;
                 position: relative;
                 top: 30px;
                 left: 30px;
-                border: 1px solid rgb(14, 5, 5);
+                border: 1px solid white;
                 border-radius: 10px;
             }
-            .box-1 form button {
+            .box-1 form button 
+            {
                 border: 0;
                 outline: none;
-                padding: 10px 20px;
-                color: rgb(7, 3, 3);
+                padding: 5px 20px;
+                color: white;
                 border-radius: 30px;
-                background:#00ffff;
+                background: #6fa1f8;
                 cursor: pointer;
                 position: relative;
                 top: 50px;
             }
-            .box-2 h2 {
-                color: rgb(0, 0, 0);
+            .box-2 h2 
+            {
+                color: white;
                 position: relative;
                 top: 25px;
                 left: 50px;
                 font-size: 30px;
             }
-            .box-2 p {
-                color: rgb(6, 1, 1);
+            .box-2 p 
+            {
+                color: white;
                 position: relative;
                 top: 50px;
                 padding: 10px 80px;
             }
-            .box-2 span {
-                color:#000000;
+            .box-2 span 
+            {
+                color: #6fa1f8;
                 font-size: 20px;
             }
-            footer {
-                background-color:#f3fcff;
+            footer 
+            {
+                background-color: #6fa1f8;
                 margin-top: auto;
             }
         </style>
@@ -400,12 +839,12 @@ contact.html
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">AI Smart</h1>
+            <h1 class="logo">I<span>nfiniti</span>T<span>ech</span></h1>
             <ul>
-                <li><a href="home.html"> Home </a></li>
-                <li><a href="product.html"> Products </a></li>
-                <li><a href="people.html"> People </a></li>
-                <li><a href="contact.html" class="bg-contact"> Contact </a></li>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/person.html"> person </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html" class="bg-contact"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -417,11 +856,11 @@ contact.html
                 <form>
                     <center>
                         <h1> Contact Us </h1>
-                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Your Name :">
                         <br>
-                        <input type="email" placeholder="Your Email">
+                        <input type="email" placeholder="Your Email :">
                         <br>
-                        <textarea rows="4" cols="40" placeholder="Your Message"> </textarea>
+                        <textarea rows="4" cols="40" >Your Message :</textarea>
                         <br>
                         <button type="submit"> Submit </button>
                     </center>
@@ -429,381 +868,30 @@ contact.html
             </div>
             <div class="box-2"> 
                 <h2> Contact Information </h2>
-                <p> <span>Address</span> : 11/1,Periyar street,kondithope,chennai-600001</p>
-                <p> <span>Email</span> : alamurugan0388@gmail.com </p>
-                <p> <span>Phone</span> : 6383413670</p>
+                <p> <span>Address :</span> plot no 75 vasanthapuri phase 11,poonamalle,chennai</p>
+                <p> <span>Email :</span> swetha150@gmail.com</p>
+                <p> <span>Phone :</span>  9025378096 </p>
             </div>
         </div>
     </div>
     <footer>
-        <center>Designed and Developed by BALA MURUGAN S(212223230027) &copy; 2024</center>
+        <center> Designed and Developed by SWETHA D(212223040222) </center>
     </footer>
 </body>
 </html>
-
-product.html
-
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Product Page </title>
-        <style type="text/css">
-            * {
-                margin: 0;
-                padding: 0;
-                font-family: 'Courier New', Courier, monospace;
-            }
-            .banner {
-                width: 100%;
-                height: 100vh;
-                background-image: linear-gradient(rgba(255, 255, 255, 0.941),rgba(1, 181, 246, 0.75));
-                background-size: cover;
-                background-position: center;
-            }
-            .navbar {
-                width: 85%;
-                margin: auto;
-                padding: 35px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            .bg-product {
-                border: 1px;
-                padding: 10px;
-                color: gray;
-                background-color:#08e8f0;
-                border-radius: 30px;
-            }
-            .logo {
-                color:#050505;
-                font-size: 40px;
-                font-weight: 700;
-                letter-spacing: 3px;
-            }
-            span {
-                color: gray;
-            }
-            form {
-                width: 300px;
-                height: 40px;
-                display: flex;
-                background: rgba(4, 250, 41, 0.2);
-                padding: 1px 1px;
-                font-size: 15px;
-                border-radius: 10px;
-                backdrop-filter: blur(4px) saturate(180%);
-            }
-            form input {
-                background: transparent;
-                flex: 1;
-                border: 0;
-                outline: none;
-                padding: 12px 20px;
-                font-size: 15px;
-                color: rgb(0, 2, 0);
-            } 
-            ::placeholder {
-                color: rgb(6, 6, 6);
-            }
-            form button {
-                border: 0;
-                outline: none;
-                padding: 5px 20px;
-                color: rgb(4, 4, 4);
-                border-radius: 10px;
-                background:#01a8fb;
-                cursor: pointer;
-            }
-            .navbar li {
-                list-style: none;
-                display: inline-block;
-                margin: 0 20px;
-                position: relative;
-            }
-            .navbar li a {
-                text-decoration: none;
-                color: rgb(1, 1, 10);
-                text-transform: uppercase;
-            }
-            .navbar li:hover {
-                border: 1px;
-                padding: 10px;
-                color: rgb(11, 6, 117);
-                background-color:#00ccff;
-                transition: 0.5s; 
-                cursor: pointer;
-                border-radius: 30px;
-            }
-            .container {
-                background: transparent;
-                padding: 10px 5%;
-                padding-bottom: 100px;
-            }
-            .container .box-container {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-                gap: 20px;
-            }
-            .container .box-container .box {
-                color: rgb(11, 1, 1);
-                box-shadow: 0 5px 10px rgba(0,0,0,.2);
-                border-radius: 10px;
-                background: transparent;
-                border: 1px solid rgb(30, 7, 243);
-                padding: 30px 20px;
-            }
-            .container .box-container .box img {
-                height: 200px;
-                border-radius: 10px;
-            }
-            .container .box-container .box h3 {
-                color:#030303;
-                font-size: large;
-                padding: 50px 10;
-            }
-            .container .box-container .box p {
-                color: rgb(187, 58, 58);
-                font-size: small;
-                line-height: 1.5;
-            }
-            footer {
-                background-color:#ffffff;
-                margin-top: auto;
-            }
-        </style>
-    </head>
-<body>
-    <div class="banner">
-        <br>
-        <div class="navbar">
-            <h1 class="logo">AI Smart</h1>
-            <ul>c:\Users\admin\Pictures\Screenshots\c:\Users\admin\Pictures\Screenshots\
-                <li><a href="home.html"> Home </a></li>
-                <li><a href="product.html" class="bg-product"> Products </a></li>
-                <li><a href="people.html"> People </a></li>
-                <li><a href="contact.html"> Contact us</a></li>
-            </ul>
-            <form action="" method="get">
-                <input type="text" placeholder="Enter to Search">
-                <button type="submit"> Search </button>
-            </form>
-        </div>
-        <div class="container">
-            <div class="box-container" align="center">
-              
-                
-                <div class="box">
-                    <h3 align="center">Gen AI</h3>
-                    <image src="C:\Users\admin\Downloads\gen ai.jpeg" width="150" height="500" align="center"></image>
-                </div>
-                <div class="box">
-                    <h3 align="center"> NLP </h3>
-                    <image src="c:\Users\admin\Downloads\web\NLP.PNG" width="150" height="500"></image>
-                </div>
-                <div class="box">
-                    <h3 align="center">ML Solutions</h3>
-                    <image src="c:\Users\admin\Downloads\web\ML.PNG" width="120" height="500"></image>
-                </div>
-                <div class="box">
-                    <h3 align="center">AI-Driven Automation</h3>
-                    <image src="c:\Users\admin\Downloads\web\aidriven.png" width="120" height="500"></image>
-                </div>
-                <div class="box">
-                    <h3 align="center">AI Security</h3>
-                    <image src="c:\Users\admin\Downloads\web\ai security.png" width="100" height="500"></image>
-                </div>
-                <div class="box">
-                    <h3 align="center">Customer enterprise</h3>
-                    <image src="c:\Users\admin\Downloads\web\customer.png" width="100" height="500"></image>
-                </div>
-
-            </div>
-              
-            </div>
-        </div>
-    </div>
-    <footer>
-        <center>Designed and Developed by BALA MURUGAN S(212223230027)&copy; 2024</center>
-    </footer>
 </body>
 </html>
 
-people.html
-
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> people page </title>
-        <style type="text/css">
-            * {
-                margin: 0;
-                padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            .banner {
-                width: 100%;
-                height: 100vh;
-                background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(0, 247, 255, 0.75));
-                background-size: cover;
-                background-position: center;
-            }
-            .navbar {
-                width: 85%;
-                margin: auto;
-                padding: 35px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            .bg-people {
-                border: 1px;
-                padding: 10px;
-                color: rgb(250, 125, 0);
-                background-color:#00e1ff;
-                border-radius: 30px;
-            }
-            .logo {
-                color:#320be1;
-                font-size: 40px;
-                font-weight: 700;
-                letter-spacing: 3px;
-            }
-            span {
-                color: gray;
-            }
-            form {
-                width: 300px;
-                height: 40px;
-                display: flex;
-                background: rgba(4, 250, 41, 0.2);
-                padding: 1px 1px;
-                font-size: 15px;
-                border-radius: 10px;
-                backdrop-filter: blur(4px) saturate(180%);
-            }
-            form input {
-                background: transparent;
-                flex: 1;
-                border: 0;
-                outline: none;
-                padding: 12px 20px;
-                font-size: 15px;
-                color: gray;
-            } 
-            ::placeholder {
-                color: gray;
-            }
-            form button {
-                border: 0;
-                outline: none;
-                padding: 5px 20px;
-                color: gray;
-                border-radius: 10px;
-                background:#6e4ad2;
-                cursor: pointer;
-            }
-            .navbar li {
-                list-style: none;
-                display: inline-block;
-                margin: 0 20px;
-                position: relative;
-            }
-            .navbar li a {
-                text-decoration: none;
-                color: rgb(11, 6, 117);
-                text-transform: uppercase;
-            }
-            .navbar li:hover {
-                border: 1px;
-                padding: 10px;
-                color: rgb(26, 12, 221);
-                background-color:#00b3ff;
-                transition: 0.5s; 
-                cursor: pointer;
-                border-radius: 30px;
-            }
-            .image {
-                position: relative;
-                border: 0;
-                top: 70px;
-                background: transparent;
-            }
-            .image table {
-                border: 0;
-                color: rgb(56, 10, 244);
-                position: relative;
-                left: 100px;
-            }
-            .image table img {
-                height: 250px;
-                width: 250px;
-                border: 2px solid gray;
-                padding: 40px;
-                border-radius: 50%;
-            }
-            .image table td {
-                color:#0a0208;
-            }
-            footer {
-                background-color:#ffffff;
-                margin-top: auto;
-            }
-        </style>
-    </head>
-<body>
-    <div class="banner">
-        <br>
-        <div class="navbar">
-            <h1 class="logo">AI Smart</h1>
-            <ul>
-                <li><a href="home.html"> Home </a></li>
-                <li><a href="product.html"> Products </a></li>
-                <li><a href="people.html" class="bg-people"> People </a></li>
-                <li><a href="contact.html"> Contact </a></li>
-            </ul>
-            <form action="" method="get">
-                <input type="text" placeholder="Enter to Search">
-                <button type="submit"> Search </button>
-            </form>
-        </div>
-        <div class="image">\
-            <table cellspacing="20"> 
-                <tr align="center">
-                    <td> <img src="c:\Users\admin\OneDrive\Documents\bala.png.jpg"> </td>
-                    <td> <img src="c:\Users\admin\OneDrive\Documents\WhatsApp Image 2024-04-26 at 10.54.26_cd788319.jpg"> </td>
-                    <td> <img src="c:\Users\admin\OneDrive\Documents\dilip.png.jpg"> </td>
-                    <td> <img src="c:\Users\admin\OneDrive\Documents\HARRISH.png.jpg"> </td>
-                </tr>
-                <tr align="center">
-                    <th>BALA MURUGAN S </th>
-                    <th>SANTHOSH KUMAR R</th>
-                    <th>DILIP SANJAY M</th>
-                    <th>HARRISH VENKAT V</th>
-                </tr>
-                <tr align="center">
-                    <td> CEO </td>
-                    <td> CEO, Co-Founder </td>
-                    <td> CTO, Co-Founder </td>
-                    <td> Director </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <footer>
-        <center>Designed and Developed by BALA MURUGAN S(212223230027) &copy; 2024</center>
-    </footer>
-</body>
-</html>
 ```
 
-
 ## OUTPUT:
-![image](https://github.com/dr-pvijayan/softweb/assets/153983364/04a3f123-5942-42dd-85ca-6b504e7e1bbf)
-![image](https://github.com/dr-pvijayan/softweb/assets/153983364/3a37194d-0e59-483a-bbc3-d1c01f70549e)
-![image](https://github.com/dr-pvijayan/softweb/assets/153983364/c7ed055d-0c96-48da-90c1-cda230da20f1)
-![image](https://github.com/dr-pvijayan/softweb/assets/153983364/8bdceba9-10d0-46db-a5dc-346bd91486c8)
+![image](https://github.com/sriharan23000516/softweb/assets/139841769/42829f10-fd8e-42ed-be77-f303dc9ea9ce)
 
+![image](https://github.com/sriharan23000516/softweb/assets/139841769/e087bb48-8dd4-44a6-84c4-0ff8c5915bb5)
+
+![image](https://github.com/sriharan23000516/softweb/assets/139841769/e990fa13-a068-4c82-8adc-8eea266bb1a4)
+
+![Uploading image.png…]()
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
