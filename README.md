@@ -1,5 +1,5 @@
 # Ex.07 Software Product Company Website
-## Date:12/5/2024
+## Date:12/05/2024
 
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
@@ -28,6 +28,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+
 ```
 home.html
 <html>
@@ -207,7 +208,7 @@ home.html
         </div>  
     </div>
     <footer>
-        <center>Designed and Developed by DILIP SANJAY M (212223240032)  &copy; 2024</center>
+        <center>Designed and Developed by BALA MURUGAN S (212223230027)  &copy; 2024</center>
     </footer>
 </body>
 </html>
@@ -429,13 +430,13 @@ contact.html
             <div class="box-2"> 
                 <h2> Contact Information </h2>
                 <p> <span>Address</span> : 11/1,Periyar street,kondithope,chennai-600001</p>
-                <p> <span>Email</span> : dilipsandy783@gmail.com </p>
-                <p> <span>Phone</span> : 9514332942</p>
+                <p> <span>Email</span> : alamurugan0388@gmail.com </p>
+                <p> <span>Phone</span> : 6383413670</p>
             </div>
         </div>
     </div>
     <footer>
-        <center>Designed and Developed by DILIP SANJAY M (212223240032)&copy; 2024</center>
+        <center>Designed and Developed by BALA MURUGAN S(212223230027) &copy; 2024</center>
     </footer>
 </body>
 </html>
@@ -623,7 +624,7 @@ product.html
         </div>
     </div>
     <footer>
-        <center>Designed and Developed by DILIP SANJAY M (212223240032)&copy; 2024</center>
+        <center>Designed and Developed by BALA MURUGAN S(212223230027)&copy; 2024</center>
     </footer>
 </body>
 </html>
@@ -769,15 +770,15 @@ people.html
         <div class="image">\
             <table cellspacing="20"> 
                 <tr align="center">
-                    <td> <img src="c:\Users\admin\OneDrive\Documents\dilip.png.jpg"> </td>
-                    <td> <img src="c:\Users\admin\OneDrive\Documents\WhatsApp Image 2024-04-26 at 10.54.26_cd788319.jpg"> </td>
                     <td> <img src="c:\Users\admin\OneDrive\Documents\bala.png.jpg"> </td>
+                    <td> <img src="c:\Users\admin\OneDrive\Documents\WhatsApp Image 2024-04-26 at 10.54.26_cd788319.jpg"> </td>
+                    <td> <img src="c:\Users\admin\OneDrive\Documents\dilip.png.jpg"> </td>
                     <td> <img src="c:\Users\admin\OneDrive\Documents\HARRISH.png.jpg"> </td>
                 </tr>
                 <tr align="center">
-                    <th>DILIP SANJAY M </th>
+                    <th>BALA MURUGAN S </th>
                     <th>SANTHOSH KUMAR R</th>
-                    <th>BALA MURUGAN S</th>
+                    <th>DILIP SANJAY M</th>
                     <th>HARRISH VENKAT V</th>
                 </tr>
                 <tr align="center">
@@ -790,16 +791,18 @@ people.html
         </div>
     </div>
     <footer>
-        <center>Designed and Developed by DILIP SANDY M (212223240032) &copy; 2024</center>
+        <center>Designed and Developed by BALA MURUGAN S(212223230027) &copy; 2024</center>
     </footer>
 </body>
 </html>
 ```
+
+
 ## OUTPUT:
-![image](https://github.com/dilipsanjay/softweb/assets/155506948/6a9f4aed-71bb-4305-8002-bfbdfc177571)
-![image](https://github.com/dilipsanjay/softweb/assets/155506948/52e41518-ac08-4917-b3be-2607bf16bfed)
-![image](https://github.com/dilipsanjay/softweb/assets/155506948/5208247a-d57f-4bc8-ad89-2ed4a8008fee)
-![image](https://github.com/dilipsanjay/softweb/assets/155506948/07a22e06-1d7c-4199-bd57-6e486f45e7fb)
+![image](https://github.com/dr-pvijayan/softweb/assets/153983364/04a3f123-5942-42dd-85ca-6b504e7e1bbf)
+![image](https://github.com/dr-pvijayan/softweb/assets/153983364/3a37194d-0e59-483a-bbc3-d1c01f70549e)
+![image](https://github.com/dr-pvijayan/softweb/assets/153983364/c7ed055d-0c96-48da-90c1-cda230da20f1)
+![image](https://github.com/dr-pvijayan/softweb/assets/153983364/8bdceba9-10d0-46db-a5dc-346bd91486c8)
 
 
 ## RESULT:
